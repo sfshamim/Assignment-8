@@ -103,20 +103,32 @@ Check version:
 
 ```bash
 python3 --version
+```
 Step 2: Create Virtual Environment (Recommended)
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
 Step 3: Install Dependencies
+```bash
 pip install streamlit openai pandas
+```
+
 Step 4: Set OpenAI API Key
 Mac/Linux:
-
+```bash
 export OPENAI_API_KEY="your_api_key_here"
+```
+
 Windows:
 
 setx OPENAI_API_KEY "your_api_key_here"
 Step 5: Run the App
+```bash
 python3 -m streamlit run streamlit_app.py
+```
+
 Open:
 
 http://localhost:8501
