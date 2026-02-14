@@ -151,7 +151,7 @@ Click below to watch the full working demo of the AI Based Patient Monitor:
 
 [▶ Watch Demo Video on YouTube](https://www.youtube.com/watch?v=K_3IfPqq5Ec)
 
-
+```
 📂 Repository Structure
 AI_Patient_Monitor/
 │
@@ -161,3 +161,4 @@ AI_Patient_Monitor/
 ├── streamlit_app.py
 ├── architecture.png
 └── README.md
+```
