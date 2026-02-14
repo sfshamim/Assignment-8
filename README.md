@@ -133,7 +133,7 @@ This demonstrates AI telemetry tracking.
 
 🎥 Demo Video
 Demo video link:
-(Insert your YouTube link here)
+https://youtu.be/K_3IfPqq5Ec
 
 📂 Repository Structure
 AI_Patient_Monitor/
