@@ -131,9 +131,10 @@ When running, the app displays:
 
 This demonstrates AI telemetry tracking.
 
-🎥 Demo Video
-Demo video link:
-(https://youtu.be/K_3IfPqq5Ec)
+## 🎥 Demo Video
+
+Watch the full working demo here:  
+👉 [AI Based Patient Monitor – Demo Video](https://youtu.be/K_3IfPqq5Ec)
 
 📂 Repository Structure
 AI_Patient_Monitor/
