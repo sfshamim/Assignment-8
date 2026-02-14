@@ -136,7 +136,7 @@ This demonstrates AI telemetry tracking.
 
 Click below to watch the full working demo of the AI Based Patient Monitor:
 
-[![Watch the Demo](https://img.youtube.com/vi/K_3IfPqq5Ec/0.jpg)](https://youtu.be/K_3IfPqq5Ec)
+[▶ Watch Demo Video on YouTube](https://youtu.be/K_3IfPqq5Ec)
 
 
 📂 Repository Structure
