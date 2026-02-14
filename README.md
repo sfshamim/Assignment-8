@@ -124,6 +124,7 @@ export OPENAI_API_KEY="your_api_key_here"
 Windows:
 
 setx OPENAI_API_KEY "your_api_key_here"
+
 Step 5: Run the App
 ```bash
 python3 -m streamlit run streamlit_app.py
