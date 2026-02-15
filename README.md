@@ -77,21 +77,51 @@ This enables transparency and monitoring of AI performance.
 
 ## 🏗 AI Architecture
 
-### Workflow:
+### Layered System Design
 
-ICU Patient CSV Data
-↓
-Streamlit App (UI Layer)
-↓
-AI Agent (GPT-4o via OpenAI API)
-↓
-Diagnosis + Suggested Actions
-↓
-Emergency Alert + Observability Metrics
+1️⃣ Data Layer  
+- ICU patient CSV files (RAG knowledge source)
 
+2️⃣ Visualization Layer  
+- Trend analysis charts  
+- Real-time vitals dashboard  
+- Status indicators  
 
-Architecture Diagram included in repository:
-`architecture.png`
+3️⃣ Agentic AI Layer  
+- GPT-4o structured JSON output  
+- Clinical reasoning  
+- Urgency classification  
+- Action recommendation  
+
+4️⃣ Alert System  
+- Emergency detection  
+- Flashing red alarm  
+
+5️⃣ Observability Layer  
+- Input token tracking  
+- Output token tracking  
+- Total tokens  
+- Latency measurement  
+- Model version reporting  
+
+---
+
+### End-to-End Workflow
+
+Patient CSV (RAG)
+        ↓
+Trend Analysis + Latest Vitals Extraction
+        ↓
+Structured Prompt Construction
+        ↓
+GPT-4o Clinical Agent
+        ↓
+JSON Diagnosis Response
+        ↓
+Alert Engine
+        ↓
+UI Rendering + Telemetry Dashboard
+
 
 ---
 
